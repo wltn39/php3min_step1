@@ -28,4 +28,13 @@ D:\programs\xampp\php\php.exe -r "copy('https://getcomposer.org/installer', 'com
 D:\programs\xampp\php\php.exe composer-setup.php
 D:\programs\xampp\php\php.exe -r "unlink('composer-setup.php');
 ```
+-초기화 
+```
+php.exe composer.phar init
+``` 
 
+6. 유닛테스트 
+- 기능을 단위별 코드를 이용해 테스트
+- phpunit 이 필요
+- 테스트주도개발(TDD) : 유닛테스트를 이용해 테스트 파일을 우선 만들고 기능을 작성하고 유닛 테스트를 통하는 개발 프로세스
+- 
